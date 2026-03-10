@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML5 Webpage</title>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Welcome to My formatting</h1>
+</header>
+
+<!-- Marquee -->
+<marquee behavior="scroll" direction="left">
+    Welcome! This page demonstrates HTML5 text formatting, lists, links, images and marquee.
+</marquee>
+
+<hr>
+
+<!-- Text Formatting -->
+<section>
+    <h2>Text Formatting Examples</h2>
+    <p><b>Bold Text</b></p>
+    <p><i>Italic Text</i></p>
+    <p><u>Underlined Text</u></p>
+    <p><strong>Important Text</strong></p>
+    <p><em>Emphasized Text</em></p>
+</section>
+
+<hr>
+
+<!-- Lists -->
+<section>
+    <h2>HTML Lists</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Open Text Editor</li>
+        <li>Write HTML Code</li>
+        <li>Save with .html extension</li>
+        <li>Open in Browser</li>
+    </ol>
+
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language used to create webpages.</dd>
+
+        <dt>CSS</dt>
+        <dd>Used to style and design webpages.</dd>
+    </dl>
+
+</section>
+
+<hr>
+
+<!-- Hyperlinks -->
+<section>
+    <h2>Hyperlinks</h2>
+
+    <p>
+        Internal Link:
+        <a href="#images">Go to Images Section</a>
+    </p>
+
+    <p>
+        External Link:
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </p>
+
+    <p>
+        Email Link:
+        <a href="mailto:example@email.com">Send Email</a>
+    </p>
+
+</section>
+
+<hr>
+
+<!-- Images -->
+<section id="images">
+    <h2>Images</h2>
+
+    <img src="https://via.placeholder.com/200" alt="Sample Image 1">
+
+    <img src="https://via.placeholder.com/200/0000FF/FFFFFF" alt="Sample Image 2">
+
+</section>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Basic HTML5 Webpage Example</p>
+</footer>
+
+</body>
+</html>
